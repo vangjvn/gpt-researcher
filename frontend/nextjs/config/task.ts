@@ -2,7 +2,7 @@ export const task = {
   "task": {
     "query": "Is AI in a hype cycle?",
     "include_human_feedback": false,
-    "model": "gpt-4o",
+    "model": "gpt-4.1-mini",
     "max_sections": 3,
     "publish_formats": {
       "markdown": true,
@@ -14,7 +14,7 @@ export const task = {
     "guidelines": [
       "The report MUST fully answer the original question",
       "The report MUST be written in apa format",
-      "The report MUST be written in english"
+      "The report MUST be written in the language user used"
     ],
     "verbose": true
   },
@@ -28,7 +28,7 @@ export const task = {
     "conclusion": "Conclusion header",
     "sources": "Sources header"
   },
-  "date": "2023-10-01",
+  "date": "2026-02-01",
   "table_of_contents": "- Introduction\n- Section 1\n- Section 2\n- Conclusion",
   "introduction": "Introduction content here",
   "conclusion": "Conclusion content here",
